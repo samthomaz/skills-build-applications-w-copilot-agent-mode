@@ -25,8 +25,8 @@ SECRET_KEY = "django-insecure-mkw0#q2uuf!418n8e9oc)luu2(k*0ig$&y$j71*^yn9-yaaak_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# Add the codespace URL to allowed hosts
-ALLOWED_HOSTS = ['humble-train-4jjr5wq9rgvph75g5.github.dev', 'localhost']
+# Ensure the codespace URL and localhost are included in ALLOWED_HOSTS
+ALLOWED_HOSTS = ['humble-train-4jjr5wq9rgvph75g5-8000.app.github.dev', 'localhost']
 
 
 # Application definition
