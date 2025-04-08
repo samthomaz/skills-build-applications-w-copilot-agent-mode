@@ -4,7 +4,7 @@ function Teams() {
   const [teams, setTeams] = useState([]);
 
   useEffect(() => {
-    fetch('https://humble-train-4jjr5wq9rgvph75g5.github.dev/api/teams/')
+    fetch('/api/teams/') // Updated to use relative path for Django REST API endpoint
       .then(response => response.json())
       .then(data => setTeams(data))
       .catch(error => console.error('Error fetching teams:', error));

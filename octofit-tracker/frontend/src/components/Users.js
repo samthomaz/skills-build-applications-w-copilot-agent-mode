@@ -4,7 +4,7 @@ function Users() {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    fetch('https://humble-train-4jjr5wq9rgvph75g5.github.dev/api/users/')
+    fetch('/api/users/') // Updated to use relative path for Django REST API endpoint
       .then(response => response.json())
       .then(data => setUsers(data))
       .catch(error => console.error('Error fetching users:', error));

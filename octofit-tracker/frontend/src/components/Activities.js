@@ -4,7 +4,7 @@ function Activities() {
   const [activities, setActivities] = useState([]);
 
   useEffect(() => {
-    fetch('https://humble-train-4jjr5wq9rgvph75g5.github.dev/api/activities/')
+    fetch('/api/activities/') // Updated to use relative path for Django REST API endpoint
       .then(response => response.json())
       .then(data => setActivities(data))
       .catch(error => console.error('Error fetching activities:', error));
