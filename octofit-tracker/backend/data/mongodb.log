@@ -53,3 +53,7 @@
 2025-04-08T17:52:44.068+0000 I STORAGE  [conn2] createCollection: octofit_db.workouts with generated UUID: c991fed3-2847-407f-b6c8-dd8826283232
 2025-04-08T17:52:44.074+0000 I NETWORK  [conn2] end connection 127.0.0.1:52586 (1 connection now open)
 2025-04-08T17:52:44.075+0000 I NETWORK  [conn1] end connection 127.0.0.1:52572 (0 connections now open)
+2025-04-08T18:05:15.098+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:60152 #3 (1 connection now open)
+2025-04-08T18:05:15.099+0000 I NETWORK  [conn3] received client metadata from 127.0.0.1:60152 conn3: { driver: { name: "PyMongo", version: "3.12.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
+2025-04-08T18:05:15.100+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:60160 #4 (2 connections now open)
+2025-04-08T18:05:15.100+0000 I NETWORK  [conn4] received client metadata from 127.0.0.1:60160 conn4: { driver: { name: "PyMongo", version: "3.12.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
