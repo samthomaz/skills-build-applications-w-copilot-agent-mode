@@ -37,3 +37,36 @@
 2025-04-08T16:53:18.372+0000 I INDEX    [LogicalSessionCacheRefresh] build index on: config.system.sessions properties: { v: 2, key: { lastUse: 1 }, name: "lsidTTLIndex", ns: "config.system.sessions", expireAfterSeconds: 1800 }
 2025-04-08T16:53:18.372+0000 I INDEX    [LogicalSessionCacheRefresh] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
 2025-04-08T16:53:18.373+0000 I INDEX    [LogicalSessionCacheRefresh] build index done.  scanned 0 total records. 0 secs
+2025-04-08T16:56:57.577+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:50122 #1 (1 connection now open)
+2025-04-08T16:56:57.577+0000 I NETWORK  [conn1] received client metadata from 127.0.0.1:50122 conn1: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.8" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "20.04" } }
+2025-04-08T16:56:57.579+0000 I NETWORK  [conn1] end connection 127.0.0.1:50122 (0 connections now open)
+2025-04-08T16:57:04.094+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:42382 #2 (1 connection now open)
+2025-04-08T16:57:04.094+0000 I NETWORK  [conn2] received client metadata from 127.0.0.1:42382 conn2: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.8" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "20.04" } }
+2025-04-08T16:57:04.096+0000 I NETWORK  [conn2] end connection 127.0.0.1:42382 (0 connections now open)
+2025-04-08T16:57:10.121+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:41478 #3 (1 connection now open)
+2025-04-08T16:57:10.121+0000 I NETWORK  [conn3] received client metadata from 127.0.0.1:41478 conn3: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.8" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "20.04" } }
+2025-04-08T16:57:10.123+0000 I NETWORK  [conn3] end connection 127.0.0.1:41478 (0 connections now open)
+2025-04-08T16:57:18.705+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:41486 #4 (1 connection now open)
+2025-04-08T16:57:18.706+0000 I NETWORK  [conn4] received client metadata from 127.0.0.1:41486 conn4: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.8" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "20.04" } }
+2025-04-08T17:01:35.317+0000 I NETWORK  [conn4] end connection 127.0.0.1:41486 (0 connections now open)
+2025-04-08T17:02:01.621+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:43482 #5 (1 connection now open)
+2025-04-08T17:02:01.621+0000 I NETWORK  [conn5] received client metadata from 127.0.0.1:43482 conn5: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.8" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "20.04" } }
+2025-04-08T17:02:01.623+0000 I NETWORK  [conn5] end connection 127.0.0.1:43482 (0 connections now open)
+2025-04-08T17:02:06.961+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:43498 #6 (1 connection now open)
+2025-04-08T17:02:06.961+0000 I NETWORK  [conn6] received client metadata from 127.0.0.1:43498 conn6: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.8" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "20.04" } }
+2025-04-08T17:02:06.963+0000 I NETWORK  [conn6] end connection 127.0.0.1:43498 (0 connections now open)
+2025-04-08T17:02:21.812+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:42430 #7 (1 connection now open)
+2025-04-08T17:02:21.812+0000 I NETWORK  [conn7] received client metadata from 127.0.0.1:42430 conn7: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.8" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "20.04" } }
+2025-04-08T17:02:21.814+0000 I NETWORK  [conn7] end connection 127.0.0.1:42430 (0 connections now open)
+2025-04-08T17:02:28.263+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:42446 #8 (1 connection now open)
+2025-04-08T17:02:28.263+0000 I NETWORK  [conn8] received client metadata from 127.0.0.1:42446 conn8: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.8" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "20.04" } }
+2025-04-08T17:02:28.265+0000 I NETWORK  [conn8] end connection 127.0.0.1:42446 (0 connections now open)
+2025-04-08T17:02:35.208+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:40990 #9 (1 connection now open)
+2025-04-08T17:02:35.209+0000 I NETWORK  [conn9] received client metadata from 127.0.0.1:40990 conn9: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.8" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "20.04" } }
+2025-04-08T17:02:35.210+0000 I NETWORK  [conn9] end connection 127.0.0.1:40990 (0 connections now open)
+2025-04-08T17:02:41.138+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:60166 #10 (1 connection now open)
+2025-04-08T17:02:41.138+0000 I NETWORK  [conn10] received client metadata from 127.0.0.1:60166 conn10: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.8" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "20.04" } }
+2025-04-08T17:02:41.140+0000 I NETWORK  [conn10] end connection 127.0.0.1:60166 (0 connections now open)
+2025-04-08T17:02:48.815+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:60182 #11 (1 connection now open)
+2025-04-08T17:02:48.815+0000 I NETWORK  [conn11] received client metadata from 127.0.0.1:60182 conn11: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.8" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "20.04" } }
+2025-04-08T17:03:49.377+0000 I NETWORK  [conn11] end connection 127.0.0.1:60182 (0 connections now open)
